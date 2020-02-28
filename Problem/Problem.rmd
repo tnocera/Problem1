@@ -36,6 +36,8 @@ favstats(EDUC~VOTE12,data=Ourdata)
 ```
 
 
+## Inference
+
 ```{r}
 t.test(EDUC~VOTE12,data=Ourdata)
 ```
