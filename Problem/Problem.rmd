@@ -25,4 +25,17 @@ $H_A$ : There is a difference in the average years of education between those wh
 plot(EDUC~VOTE12, data=Ourdata)
 ```
 
-It appears that the average number of years of education is slightly the same for both groups.
+It appears that the average number of years of education is slightly the same for both groups. 
+
+
+
+## Numerical Summary
+
+```{r}
+favstats(EDUC~VOTE12,data=Ourdata)
+```
+
+
+```{r}
+t.test(EDUC~VOTE12,data=Ourdata)
+```
